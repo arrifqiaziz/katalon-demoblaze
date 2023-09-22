@@ -1,9 +1,9 @@
 # katalon-demoblaze
 Project Katalon Week 3 - Bootcamp Intermediate Quality Assurance Sanbercode Batch 49
 
-This repository is a documentation of week 2 from [Bootcamp Intermediate Quality Assurance Sanbercode](https://sanbercode.com/) :
+This repository is a documentation of week 3 from [Bootcamp Intermediate Quality Assurance Sanbercode](https://sanbercode.com/) :
 
-- [Advance Katalon Automation](https://github.com/arrifqiaziz/cypress-cura-health) with cool instructure [Elvanisa Ayu Muhsina](https://www.linkedin.com/in/elvanisa/)
+- [Advance Katalon Automation](https://github.com/arrifqiaziz/katalon-demoblaze) with cool instructure [M Fariz Agati](https://www.linkedin.com/in/farizagati/)
 
 ## Requirement for this Automation is :
 - Use `Groovy` based `Katalon Studio version 8.6.5`
