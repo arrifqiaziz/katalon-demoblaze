@@ -19,23 +19,29 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(BASE_URL)
+WebUI.navigateToUrl(GlobalVariable.base_url)
 
-WebUI.verifyElementPresent(findTestObject('Menu Bar/Login'), 1)
+WebUI.click(findTestObject('Menu Bar/Contact'))
 
-WebUI.click(findTestObject('Menu Bar/Login'))
+WebUI.verifyElementPresent(findTestObject('Contact Us/Head Contact Us'), 1)
 
-WebUI.setText(findTestObject('Register and Login Form/Input Username - Login'), username_static)
+WebUI.verifyElementPresent(findTestObject('Contact Us/Input Text Email'), 1)
 
-WebUI.setEncryptedText(findTestObject('Register and Login Form/Input Password - Login'), password_static)
+WebUI.setText(findTestObject('Contact Us/Input Text Email'), email)
 
-WebUI.click(findTestObject('Register and Login Form/Button Login'))
+WebUI.verifyElementPresent(findTestObject('Contact Us/Input Text Name'), 1)
 
-WebUI.delay(2)
+WebUI.setText(findTestObject('Contact Us/Input Text Name'), name)
 
-WebUI.verifyElementPresent(findTestObject('Menu Bar/Logout'), 1)
+WebUI.verifyElementPresent(findTestObject('Contact Us/Input Text Message'), 1)
 
-WebUI.click(findTestObject('Menu Bar/Logout'))
+WebUI.setText(findTestObject('Contact Us/Input Text Message'), message)
+
+WebUI.verifyElementPresent(findTestObject('Contact Us/Close Contact Us'), 1)
+
+WebUI.verifyElementPresent(findTestObject('Contact Us/Send Message'), 1)
+
+WebUI.click(findTestObject('Contact Us/Send Message'))
 
 WebUI.closeBrowser()
 

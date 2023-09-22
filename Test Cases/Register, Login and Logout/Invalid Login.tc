@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Invalid Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d53c32d0-abcb-4bb9-9950-0506bc88fb91</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>622cd863-f726-4b50-beaf-d0c3d6c095f8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9049bb4b-d359-4659-b598-eb866d13683a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d6c62e2c-e047-450a-8b79-046b778e8ccc</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'test-bojgbq44iubrfwg'</defaultValue>
+      <description></description>
+      <id>622cd863-f726-4b50-beaf-d0c3d6c095f8</id>
+      <masked>false</masked>
+      <name>username_static</name>
+   </variable>
+   <variable>
+      <defaultValue>'P9ET2sDE0SE='</defaultValue>
+      <description></description>
+      <id>9049bb4b-d359-4659-b598-eb866d13683a</id>
+      <masked>false</masked>
+      <name>password_static</name>
+   </variable>
+   <variable>
+      <defaultValue>'https://demoblaze.com/index.html'</defaultValue>
+      <description></description>
+      <id>d6c62e2c-e047-450a-8b79-046b778e8ccc</id>
+      <masked>false</masked>
+      <name>BASE_URL</name>
+   </variable>
+</TestCaseEntity>

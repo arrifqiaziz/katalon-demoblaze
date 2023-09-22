@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Verify Contact Us Page</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>30cea8b6-ca67-4949-b04e-829feda77206</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fd5b50c1-100d-4f67-ba65-3c17a4aaeff9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>fe9c60dc-28a5-491d-9947-6a37ab1744ba</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13fd9bb6-f4b7-4ce3-9870-e7234dc6ee8d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'email@gmail.com'</defaultValue>
+      <description></description>
+      <id>fd5b50c1-100d-4f67-ba65-3c17a4aaeff9</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>'username'</defaultValue>
+      <description></description>
+      <id>fe9c60dc-28a5-491d-9947-6a37ab1744ba</id>
+      <masked>false</masked>
+      <name>name</name>
+   </variable>
+   <variable>
+      <defaultValue>'this is a message'</defaultValue>
+      <description></description>
+      <id>13fd9bb6-f4b7-4ce3-9870-e7234dc6ee8d</id>
+      <masked>false</masked>
+      <name>message</name>
+   </variable>
+</TestCaseEntity>

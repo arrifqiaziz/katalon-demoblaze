@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Password_loginpassword</name>
+   <name>Close About Us</name>
    <tag></tag>
-   <elementGuidId>0d782084-26ae-4609-8469-4460d57425e5</elementGuidId>
+   <elementGuidId>0942f141-42f9-442a-a776-ee5c6b0cf16e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#loginpassword</value>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[24]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='loginpassword']</value>
+         <key>CSS</key>
+         <value>#videoModal > div.modal-dialog > div.modal-content > div.modal-footer > button.btn.btn-secondary</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,103 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>1a415dcb-5a99-4d51-ae17-17ae242c147d</webElementGuid>
+      <value>button</value>
+      <webElementGuid>8a0cfca0-55a5-41de-94e5-22979edb70bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>password</value>
-      <webElementGuid>950b96a8-ac21-406b-868d-143ed38c30f5</webElementGuid>
+      <value>button</value>
+      <webElementGuid>6a7d9b7f-4ed9-4bd1-8333-3c031dafb844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>493952e3-efdf-4d81-aff5-6be4c806e104</webElementGuid>
+      <value>btn btn-secondary</value>
+      <webElementGuid>ee9addc5-322d-4d9b-a6c8-f106e0120a52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-dismiss</name>
+      <type>Main</type>
+      <value>modal</value>
+      <webElementGuid>24b4aa65-a7fb-407e-8cf4-43c155173310</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>text</name>
       <type>Main</type>
-      <value>loginpassword</value>
-      <webElementGuid>47b4993c-8ac4-4efd-bcb3-75ec2f60ab17</webElementGuid>
+      <value>Close</value>
+      <webElementGuid>d2d8c1b3-4613-4eb3-a081-8b14692fd116</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginpassword&quot;)</value>
-      <webElementGuid>9d655e4e-5497-472e-a62b-97048b2aab40</webElementGuid>
+      <value>id(&quot;videoModal&quot;)/div[@class=&quot;modal-dialog&quot;]/div[@class=&quot;modal-content&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-secondary&quot;]</value>
+      <webElementGuid>1cbdc83c-f4d2-4a24-84c2-a3cdbe44ed7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='loginpassword']</value>
-      <webElementGuid>98820e69-ebe6-470d-9dc6-d9ecea7afb76</webElementGuid>
+      <value>(//button[@type='button'])[24]</value>
+      <webElementGuid>8602e484-e70d-4b83-bbc3-ec6c4bf5b747</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='logInModal']/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>7c9dc3ac-a5eb-4911-8487-f50938e99f88</webElementGuid>
+      <value>//div[@id='videoModal']/div/div/div[3]/button</value>
+      <webElementGuid>46a2b349-6907-4be1-9f8c-91c9ab18ddd6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[2]/following::input[1]</value>
-      <webElementGuid>e44dc9a9-ef59-48b3-814f-4cb49ec53a28</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close Modal Dialog'])[1]/following::button[1]</value>
+      <webElementGuid>fcb54133-3cb2-4e51-aa5a-36f236ca5d8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[2]/following::input[2]</value>
-      <webElementGuid>18e17c3c-3108-4dae-bef9-cc171a93b0a4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Done'])[1]/following::button[2]</value>
+      <webElementGuid>c14e56cc-99ba-4bd2-8cb3-26d1c734955a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::input[1]</value>
-      <webElementGuid>6231f35e-0600-4171-b392-2eae580b1b90</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/preceding::input[1]</value>
-      <webElementGuid>3f8a1530-f454-488b-8312-5dd1abb1689b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRODUCT STORE'])[1]/preceding::button[2]</value>
+      <webElementGuid>b8281f74-f972-407e-992e-7868f578c57c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div[2]/form/div[2]/input</value>
-      <webElementGuid>2c664d86-4976-4abe-a325-4c8b52afd8c8</webElementGuid>
+      <value>//div[4]/div/div/div[3]/button</value>
+      <webElementGuid>365364fc-6eb5-44dd-af08-a6248f4c2282</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'password' and @id = 'loginpassword']</value>
-      <webElementGuid>54bbd09c-fab0-40ac-a1e5-6861d7b3c7ba</webElementGuid>
+      <value>//button[@type = 'button' and (text() = 'Close' or . = 'Close')]</value>
+      <webElementGuid>7616b42a-19df-4b0e-bc6f-35e98c4c65ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

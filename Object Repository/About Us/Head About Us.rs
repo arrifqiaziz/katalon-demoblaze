@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Username_loginusername</name>
+   <name>Head About Us</name>
    <tag></tag>
-   <elementGuidId>20677e6c-8116-40c8-abb2-399174942155</elementGuidId>
+   <elementGuidId>22727829-fc18-4b28-b81e-5e5a67e58586</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#loginusername</value>
+         <key>XPATH</key>
+         <value>//h5[@id='videoModalLabel']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='loginusername']</value>
+         <key>CSS</key>
+         <value>#videoModalLabel</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
-      <webElementGuid>0025249c-67ac-4976-990c-f141d96ff073</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>type</name>
-      <type>Main</type>
-      <value>text</value>
-      <webElementGuid>609867a0-ca8e-4660-9d0c-22c01b44926d</webElementGuid>
+      <value>h5</value>
+      <webElementGuid>52be813b-5f43-4071-a369-cbc022554372</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
-      <webElementGuid>3be8e376-c6b4-4bca-b246-c489d00df486</webElementGuid>
+      <value>modal-title</value>
+      <webElementGuid>3248770f-1c6a-4763-b655-61eeadb5c2dd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>loginusername</value>
-      <webElementGuid>29c4de18-2bde-4b0c-8eac-772ae1f19e46</webElementGuid>
+      <value>videoModalLabel</value>
+      <webElementGuid>ffe580fa-8c05-4f39-a856-8fc51f6b5f3e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>About us</value>
+      <webElementGuid>a906e797-75ec-450b-8584-ffb345de313f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;loginusername&quot;)</value>
-      <webElementGuid>f9057a25-ea35-43da-b888-582420b0ab8f</webElementGuid>
+      <value>id(&quot;videoModalLabel&quot;)</value>
+      <webElementGuid>ea8ad760-3dd4-4c4c-a92b-2abbd389bfeb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='loginusername']</value>
-      <webElementGuid>9a2d05d5-85a2-4345-b4bf-4deb5e002eb8</webElementGuid>
+      <value>//h5[@id='videoModalLabel']</value>
+      <webElementGuid>c31af98d-9dba-4d67-9f9c-e29eee48169b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='logInModal']/div/div/div[2]/form/div/input</value>
-      <webElementGuid>4ce8037c-590b-40fb-9552-adeb79e7a79a</webElementGuid>
+      <value>//div[@id='videoModal']/div/div/div/h5</value>
+      <webElementGuid>3195ba26-1480-4490-a186-eb7a9d18388b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username:'])[2]/following::input[1]</value>
-      <webElementGuid>c06bebe2-3097-4d9c-83b8-a83326d0c2f5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[2]/following::h5[1]</value>
+      <webElementGuid>810bfaa6-5ee8-4d78-8dcf-69af29766632</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log in'])[1]/following::input[1]</value>
-      <webElementGuid>f8123827-c261-41be-a687-24778d958606</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/following::h5[1]</value>
+      <webElementGuid>ff160501-6c2a-4f82-bf31-c07ddb600f7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Password:'])[2]/preceding::input[1]</value>
-      <webElementGuid>a9e71518-8ddd-48a7-a632-72d0caf10c58</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Video Player is loading.'])[1]/preceding::h5[1]</value>
+      <webElementGuid>f044b4ca-1e0a-46c8-ab45-e68ab08c179d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[3]/preceding::input[2]</value>
-      <webElementGuid>de71ebfc-3c9d-4ece-984c-6f2ab58bf746</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Play Video'])[1]/preceding::h5[1]</value>
+      <webElementGuid>1bba7c25-6aa0-42ab-b37f-1fa888a73de2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='About us']/parent::*</value>
+      <webElementGuid>2ce1d68a-7468-459a-b06a-9d1415f02779</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div[2]/form/div/input</value>
-      <webElementGuid>c62449e2-bcd3-4e2c-83d8-08b7fb98a705</webElementGuid>
+      <value>//div[4]/div/div/div/h5</value>
+      <webElementGuid>0d18fcbb-2615-4651-b313-93b0b43a01de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'loginusername']</value>
-      <webElementGuid>0b9503eb-a884-4f59-8ec6-f6a1a35209cc</webElementGuid>
+      <value>//h5[@id = 'videoModalLabel' and (text() = 'About us' or . = 'About us')]</value>
+      <webElementGuid>bc84d2ed-937c-48b2-87de-5795aff75b60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
